@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" type=text/css media="screen" href="{{url_for('static', filename='css/bootstrap.min.css')}}">
+      <title>Fundamentos de JavaScript</title>
+      <head/>
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Messi</font></font></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Navegación de palanca">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+               <ul class="navbar-nav ms-auto">
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                     <font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Redes Sociales</font></font></a>
+                     <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://instagram.com/rnmoralez1994"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Instagram</font></font></a>
+                        <a class="dropdown-item" href="https://github.com/rnmoralez"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Github</font></font></a>
+                        <a class="dropdown-item" href="https://linkedin.com/in/ramon-nuñez-122684218"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Linkedin</font></font></a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <div class="row mx-1 mt-2">
+      <div class="col">
+      <img src="{{url_for('static', filename='img/4a0c14550b8ee1e2f850831f36ae346b.jpg' )}}" width="500em" height="500em" alt="">
+      </div>
+      <div class="col">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+         <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+            Biografia
+            </font></font></button>
+         </h2>
+         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+               <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lionel Andrés Messi Cuccittini </font></font></strong>
+               <font style="vertical-align: inherit;"><font style="vertical-align: inherit;">  (Rosario, 24 de junio de 1987), conocido como Leo Messi, es un futbolista argentino que juega como delantero o centrocampista. Jugador histórico del Fútbol Club Barcelona, al que estuvo ligado veinte años, desde 2021 integra el plantel del Paris Saint-Germain de la Ligue 1 de Francia. Es también internacional con la selección de Argentina, equipo del que es capitán.Considerado con frecuencia el mejor jugador del mundo y uno de los mejores de todos los tiempos,9​ es el único futbolista en la historia que ha ganado, entre otras distinciones, siete veces el Balón de Oro, seis premios de la FIFA al mejor jugador del mundo y seis Botas de Oro. En 2020, se convirtió en el primer futbolista y el primer argentino en recibir un premio Laureus, además de ser incluido en el Dream Team del Balón de Oro.
+               </font></font>
+            </div>
+         </div>
+
+         <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                  Récords a nivel de clubes  
+                </font></font></button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                 <div class="accordion-body">
+                    <strong>Messi</strong> ha marcado casi 700 goles a nivel de clubes desde que debutara con el primer equipo del Barcelona recién cumplidos los 17 años. Ha batido récords sin cesar en la Champions League y en la Liga y únicamente es segundo, por detrás de Cristiano Ronaldo, en la lista de máximos goleadores en competiciones de clubes de la UEFA (132 goles, por los 143 de Ronaldo) y ocupa el mismo puesto en la de máximos goleadores de la UEFA Champions League (129, mientras que Ronaldo suma 141). Ronaldo es dos años mayor que Messi.
+                 </div>
+              </div>
+
+      </div>
+      <div style="text-align: center;">
+      </div>
+      <script src="{{url_for('static', filename='js/bootstrap.bundle.min.js')}}"> </script>
+   </body>
+</html>
